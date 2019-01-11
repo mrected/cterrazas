@@ -1,0 +1,65 @@
+/*#nav - containing grid item
+#navbarLinks - div containing ul for nav
+.navLink - individual li containing link for nav
+
+*/
+
+
+/*.sticky{
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 11111;
+	height: 5rem;
+}*/
+
+/*#navbarLinks{
+	display: hidden;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: initial;
+
+	@media(min-width: $bp-xsmall){
+		display: flex;
+		height: $standard-height;
+	}
+	
+
+	ul{
+		display: none;
+
+		@media(min-width: $bp-xsmall){
+			display: flex;
+			width:100%;
+			flex-direction: row;
+			justify-content: space-evenly;
+			list-style-type: none;
+			
+			padding: 0;
+		}
+	}
+
+}*/
+
+/*#navbarLinks-mobile{
+	ul{
+		display: none;
+		flex-direction: column;
+		list-style-type: none;
+		margin:0 0 1rem 0;
+		padding: 0;
+		li{
+			padding: .5rem 0;
+		}
+		@media(min-width: $bp-xsmall){
+			display: none;
+		}
+	}
+	@media(min-width: $bp-xsmall){
+		display: none;
+	}
+}*/
+
+

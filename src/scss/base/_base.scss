@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: $bg-color;
+	font-family: $main-text-font;
+	font-size: 10px;
+}
+
+h1,h2{
+	font-family:$heading-font;
+	letter-spacing: .35rem;
+	font-weight: normal;
+	text-transform: lowercase;
+}
+
+h1{
+	font-size:2.5rem;
+}
+
+h2{
+	font-size: 1.85rem;
+}
+
+p{
+	font-size: 1rem;
+}
+
+.sectionTitle{
+	color:$title-font-color;
+	/*background-color: $title-bg-color;*/
+	text-align: center;
+	padding:3rem 0 1rem;
+	margin:2rem 1rem 1rem;
+/*	border-top: .05rem solid $accent-color3;*/
+	border-bottom: .05rem solid $accent-color3;
+}
+
+.overlayTitle{
+	font-size: 8rem;
+	outline-color: invert;
+	color:$title-font-color;
+	text-align: center;
+	padding:0;
+	margin:0;
+/*	border-top: .05rem solid $accent-color3;*/
+
+}
+
+.sectionSubHeading{
+	color:$section-sub-title-font-color;
+	margin:1rem;
+	text-align: center;
+}
+
+.sectionSubTitle{
+	color:$title-font-color;
+	/*background-color: $title-bg-color;*/
+	text-align: center;
+	padding:3rem 0 1rem;
+	margin:2rem 1rem 1rem;
+}
+
+.heading-description{
+		text-align: center;
+		font-size: .85rem;
+		font-family: $article-font;
+		letter-spacing: initial;
+		line-height: 1.5;
+		font-weight: normal;
+		text-transform: none;
+		color:$accent-color3;
+		@media(min-width:$bp-xsmall){
+
+		}
+	}
+
+
+.big-text{
+	@include big-text;
+}
+
+.liSeperator{
+	border-left: none;
+	width:100%;
+	height:1px;
+	hr{
+		display: block;
+		width:80%;
+		border:solid 1px $accent-color3;
+	}
+	@media(min-width: $bp-xsmall){
+		width:2px;
+		height:25px;
+		border-left: solid 1px $accent-color3;
+		hr{
+			display: none;
+		}
+	}
+}
+
+.code{
+	font-family: monospace;
+	background-color: $code-bg-color;
+	border-radius: 25px;
+	padding:0 .15rem;
+	
+	@media(min-width: $bp-small){
+		padding:.15rem .35rem;
+		border:solid .15rem $accent-color2;
+	}
+}

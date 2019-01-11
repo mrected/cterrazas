@@ -1,0 +1,35 @@
+
+/*#about{
+	grid-area: about;
+}
+
+#work{
+	grid-area: work;
+}
+*/
+
+
+
+#wrapper-body{
+	max-width: 1250px;
+	margin:0 auto;
+	display:grid;
+
+
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2,1fr);
+}
+
+	#about{
+		grid-column: span 3;
+		grid-row:1/2;
+	}
+
+	#work{
+		grid-column: span 3;
+		grid-row:2/3;
+	}
+
+
+
+
