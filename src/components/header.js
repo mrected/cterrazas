@@ -6,30 +6,30 @@ class Header extends Component {
     return (
       <div id="wrapper-head">
         <div id="navBrand">
-          <div class="navBrandPanelSticky unstuck" />
-          <div class="navBrandPanel">
-            <div class="brandDiv unstuck">
+          <div className="navBrandPanelSticky unstuck" />
+          <div className="navBrandPanel">
+            <div className="brandDiv unstuck">
               <img
                 src={Brand}
                 alt="Chris Terrazas, designer, developer logo"
-                class="brand"
+                className="brand"
               />
             </div>
-            <div class="navToggle">
+            <div className="navToggle">
               <span />
               <span />
               <span />
               <span />
             </div>
-            <nav class="nav unstuck">
+            <nav className="nav unstuck">
               <ul>
-                <li class="navLink">
+                <li className="navLink">
                   <a href="#about">About</a>
                 </li>
-                <li class="navLink">
+                <li className="navLink">
                   <a href="#work">Work</a>
                 </li>
-                <li class="navLink">
+                <li className="navLink">
                   <a href="#footer">Contact</a>
                 </li>
               </ul>

@@ -1,31 +1,18 @@
 import React, { Component } from 'react'
 
 class Skill extends Component {
+
+  componentDidMount() {
+    const element = document.querySelector(".skillLevel")
+    element.style.width = element.dataset.width
+  }
+
   render() {
-    const setSkillLevel = () => {
-      document.getElementsByTagName('.skillLevel').forEach(skill => {
-        let width = skill.dataset.width
-        console.log(width)
-      })
-    }
-
-    // setSkillLevel()
-
-    //     function(){
-    //     this.css('width',$(this).attr('data-width'));
-    //   });
-    // }
-
-    // const setSkillLevel = () => {
-    //   $(".skillLevel").each(function(){
-    //     $(this).css('width',$(this).attr('data-width'));
-    //   });
-    // }
-
+ 
     return (
       <li>
-        <div class="skillLevelDiv">
-          <div class="skillLevel" data-width={this.props.level}>
+        <div className="skillLevelDiv">
+          <div className="skillLevel" data-width={this.props.level}>
             {this.props.name}
           </div>
         </div>

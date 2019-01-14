@@ -2,12 +2,20 @@ import React, { Component } from 'react'
 import Skill from './skill'
 
 class SkillBlock extends Component {
+
+  componentDidMount(){
+    let elements = document.querySelectorAll('Skill')
+    elements.forEach(element => {
+      console.log(element)
+    })
+  }
+
   render() {
     return (
       <div id="skillBlock">
-        <h2 class="sectionSubHeading">Skills</h2>
+        <h2 className="sectionSubHeading">Skills</h2>
         <ul>
-          <Skill name="HTML" level="65%" />
+          <Skill name="HTML" level="85%" />
           <Skill name="CSS" level="55%" />
           <Skill name="JavaScript" level="65%" />
           <Skill name="React" level="45%" />
