@@ -2,17 +2,16 @@ import React, { Component } from 'react'
 
 class Skill extends Component {
 
-  componentDidMount() {
-    const element = document.querySelector(".skillLevel")
-    element.style.width = element.dataset.width
-  }
-
   render() {
  
+    const style = {
+      "width": this.props.level
+    }
+
     return (
       <li>
         <div className="skillLevelDiv">
-          <div className="skillLevel" data-width={this.props.level}>
+          <div className="skillLevel" style={style}>
             {this.props.name}
           </div>
         </div>

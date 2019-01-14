@@ -3,13 +3,6 @@ import Skill from './skill'
 
 class SkillBlock extends Component {
 
-  componentDidMount(){
-    let elements = document.querySelectorAll('Skill')
-    elements.forEach(element => {
-      console.log(element)
-    })
-  }
-
   render() {
     return (
       <div id="skillBlock">
