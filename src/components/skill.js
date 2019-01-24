@@ -10,14 +10,19 @@ class Skill extends Component {
 
     return (
       <li>
-        <div className="skillLevelDiv">
+        <div className="skillIcon">
+          <img src={`../images/icons/${this.props.name}.svg`} alt={this.props.name} />
+				</div>
+				<div class="skillLevelDiv">
           <div className="skillLevel" style={style}>
             {this.props.name}
           </div>
-        </div>
+				</div>
       </li>
     )
   }
 }
 
 export default Skill
+
+							

@@ -15,6 +15,10 @@ class SkillBlock extends Component {
           <Skill name="jQuery" level="55%" />
           <Skill name="PHP" level="20%" />
           <Skill name="Sass" level="60%" />
+          <Skill name="Postgres" level="60%" />
+          <Skill name="Ruby" level="60%" />
+          <Skill name="Rails" level="60%" />
+          <Skill name="Github" level="60%" />
           <Skill name="Photoshop" level="85%" />
           <Skill name="Illustrator" level="95%" />
           <Skill name="InDesign" level="45%" />
