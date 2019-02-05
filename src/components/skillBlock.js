@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Skill from './skill'
 
+import HTMLicon from '../images/icons/HTML.svg'
+
 class SkillBlock extends Component {
 
   render() {
