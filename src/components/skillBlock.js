@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import Skill from './skill'
-
-import HTMLicon from '../images/icons/HTML.svg'
+import Skill from './Skill'
 
 class SkillBlock extends Component {
 

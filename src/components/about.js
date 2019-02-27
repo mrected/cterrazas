@@ -12,16 +12,14 @@ class About extends Component {
         <div id="aboutText">
           <p>
             <span className="big-text">Hello. I’m Chris Terrazas.</span>
-            <br /> I’m born and raised in St Petersburg, FL. I ride bikes
-            ridiculously long distances and I design and develop web pages in my
-            humble apartment.
+            <br /> I’m born and raised in St Petersburg, FL. I build websites,
+            solve problems with code and love being outdoors.
           </p>
 
           <p>
-            I’ve been at this about 4ish years now. See below to check out some
-            development related things I’m good at. I’m also know a lot about
-            how to work a camera and I’m pretty good in the graphics area as
-            well.
+            See below to check out some my work. I'm also a skilled photographer
+            and have a long history in graphics and design work, which I hope is 
+            obvious.
           </p>
 
           <p>

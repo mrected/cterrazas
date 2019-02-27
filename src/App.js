@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import About from './components/about'
+import About from './components/About'
 
-import Header from './components/header'
+import Header from './components/Header'
+
 import './index.scss'
-import SkillBlock from './components/skillBlock'
+import SkillBlock from './components/SkillBlock'
+import WorkBlock from './components/WorkBlock';
 
 class App extends Component {
   render() {
@@ -12,6 +14,7 @@ class App extends Component {
         <Header />
         <About />
         <SkillBlock />
+        <WorkBlock />
       </>
     )
   }
