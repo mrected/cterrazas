@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Work extends Component {
-    render() {
-        return (
+const Work = () => (
             <section className="gridItem" id="work">
                 <h1 className="sectionTitle">Web Work</h1>
                 <div className="siteInfo">
@@ -29,7 +27,5 @@ class Work extends Component {
                 </div>
             </section>
         );
-    }
-}
 
 export default Work;

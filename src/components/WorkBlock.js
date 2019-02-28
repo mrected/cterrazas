@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Work from './Work'
-class WorkBlock extends Component {
-    render() {
-        return (
+
+const WorkBlock = () => (
             <>
                 <Work />
             </>
         );
-    }
-}
 
 export default WorkBlock;
