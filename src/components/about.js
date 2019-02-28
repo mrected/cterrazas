@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class About extends Component {
-  render() {
-    return (
+const About = () => (
       <section className="gridItem" id="about">
         <h1 className="sectionTitle">About</h1>
         <img
@@ -29,7 +27,5 @@ class About extends Component {
         </div>
       </section>
     )
-  }
-}
-
+    
 export default About
