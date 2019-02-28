@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Brand from '../images/brand-darkBg.svg'
 
-class Header extends Component {
-  render() {
-    return (
+const Header = () => (
       <div id="wrapper-head">
         <div id="navBrand">
           <div className="navBrandPanelSticky unstuck" />
@@ -38,7 +36,5 @@ class Header extends Component {
         </div>
       </div>
     )
-  }
-}
 
 export default Header
