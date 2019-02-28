@@ -1,10 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Skill from './Skill'
 
-class SkillBlock extends Component {
-
-  render() {
-    return (
+const SkillBlock = () => (
       <div id="skillBlock">
         <h2 className="sectionSubHeading">Skills</h2>
         <ul>
@@ -27,7 +24,5 @@ class SkillBlock extends Component {
         </ul>
       </div>
     )
-  }
-}
 
 export default SkillBlock

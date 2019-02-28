@@ -1,27 +1,19 @@
-import React, { Component } from 'react'
-
-class Skill extends Component {
-
-  render() {
+import React from 'react'
  
-    const style = {
-      "width": this.props.level
-    }
 
-    return (
+    const Skill = props => (
+      
       <li>
         <div className="skillIcon">
-          <img src={require(`./../images/icons/${this.props.name}.svg`)} alt={this.props.name} />
+          <img src={require(`./../images/icons/${props.name}.svg`)} alt={props.name} />
 				</div>
 				<div class="skillLevelDiv">
-          <div className="skillLevel" style={style}>
-            {this.props.name}
+          <div className="skillLevel" style={{ width: `${props.level}` }} >
+            {props.name}
           </div>
 				</div>
       </li>
     )
-  }
-}
 
 export default Skill
 
