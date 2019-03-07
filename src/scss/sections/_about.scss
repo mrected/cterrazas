@@ -28,10 +28,13 @@
 	ul{
 		font-size: 1.25rem;
 		list-style-type: none;
-		width:100%;
+		// width:100%;
 		margin:25px 0;
 		padding:0;
+		
 		li{
+			display: flex;
+			align-items: center;
 			margin:2px 0;
 			@media(min-width:$bp-xsmall){
 				margin:10px 0;
@@ -54,22 +57,23 @@
 		margin:0 auto;
 		width:20px;
 		@media(min-width: $bp-xsmall){
-			width:30px
+			width:50px
 		}
 	}
 }
 
 .skillLevelDiv{
 	width:75%;
-	display: inline-block;
+	// display: inline-block;
 	background-color: $accent-color3;
 	margin:5px;
+	border: solid 5px $bg-color;
 	border-radius: 25px;
-	line-height: 1;
+	// line-height: 1;
 	font-size: .75rem;
+	height: 28px;
 	@media(min-width:$bp-xsmall){
 		font-size: 1rem;
-		
 	}
 }
 
@@ -78,7 +82,7 @@
 	display: inline-block;
 	font-size: .5rem;
 	font-weight: bold;
-	line-height: 1;
+	// line-height: 1;
 	padding:3px 0 0 6px;
 	
 	border-radius: 25px;
